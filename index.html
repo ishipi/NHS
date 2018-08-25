@@ -1,29 +1,380 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="utf-8">
-  <title>N高校|通信制高校(広域)</title>
-  <link rel="stylesheet" href="css/style.css">
+      <meta charset="utf-8">
+      <title>N高校|通信制高校(広域)</title>
+      <link rel="stylesheet" href="css/style.css">
+
+      <script src="js/jquery-1.10.1.min.js"></script>
+      <script src="js/jquery.bxslider.js/jquery.bxslider.js"></script>
+      <link rel="stylesheet" href="js/jquery.bxslider.js/jquery.bxslider.css">
+
+      <script>
+      $(document).ready(function(){
+        $('.bxslider').bxSlider({
+           auto: true,
+           speed: 2000,
+           pause: 6000
+        });
+      });
+     </script>
 </head>
 <body>
 
 
  <div id="page">
-   <header>
-     <div id="headerTop">
-       <div id="headerTop-inner">
-         <h4 id="htLeft">カドカワが創る新しいネットの高校</h4>
-           <ul>
-             <li><a href="#">入学案内</a></li>
-             <li><a href="#">キャンパス</a></li>
-             <li><a href="#">ニュース･トピックス</a></li>
-             <li><a href="#">N高ブログ</a></li>
-             <li><a href="#">WEB出願</a></li>
-             <li><span></span><a href="#">生徒用ログイン</a></li>
-           </ul>
-       </div><!-- headerTop-inner -->
-     </div><!-- headerTop -->
-   </header>
+
+     <header>
+       <div id="headerTop">
+           <div id="headerTop-inner">
+               <h4 id="htLeft">カドカワが創る新しいネットの高校</h4>
+                   <ul>
+                       <li class="bdR"><a href="#">入学案内</a></li>
+                       <li class="bdR"><a href="#">キャンパス</a></li>
+                       <li class="bdR"><a href="#">ニュース･トピックス</a></li>
+                       <li class="bdR"><a href="#">N高ブログ</a></li>
+                       <li><a href="#">WEB出願</a></li>
+                       <li class="stu"><span></span><a href="#">生徒用ログイン</a></li>
+                   </ul>
+           </div><!-- headerTop-inner -->
+       </div><!-- headerTop -->
+       <div id="headerMid">
+           <a href="#"><img src="images/header_mainlogo.png" alt="" width="211" height="45"></a>
+             <div id="headerMid-inner">
+                <div class="time">
+                   <img src="images/header_tel03.png" alt="" width="210" height="29">
+                   <p>受付時間：平日9:30~20:00</p>
+                </div>
+                 <ul>
+                     <li><a href="#"><img src="images/header_social01_01.png" alt="" width="30" height="30"></a></li>
+                     <li><a href="#"><img src="images/header_social01_02.png" alt="" width="30" height="30"></a></li>
+                     <li><a href="#"><img src="images/header_social01_03.png" alt="" width="30" height="30"></a></li>
+                 </ul>
+             </div>
+         </div><!-- headerMid -->
+         <div id="headerLow">
+             <ul id="schNav">
+                 <li class="sch"><a href="#">N高について<br>
+                 <span></span></a></li>
+
+                 <li class="sch"><a href="#">ネットコース<br>
+                 <span></span></a></li>
+
+                 <li class="sch"><a href="#">通学コース<br>
+                 <span></span></a></li>
+
+                 <li class="sch"><a href="#">提携スクール<br>
+                 <span></span></a></li>
+              </ul>
+               <ul id="descNav">
+                   <li><a href="#">説明会・相談会</a></li>
+                   <li class="desc"><a href="#">資料請求</a></li>
+               </ul>
+         </div><!-- headerLow -->
+     </header>
+
+     <div id="pageBody">
+         <div id="bodyTop">
+            <section class="marginVisual">
+               <ul class="bxslider">
+                   <li><a href="#">
+                      <img src="images/home_contents_mainimage01_01_20180614.jpg" alt="" width="1400" height="500">
+                    </a></li>
+                   <li><a href="#">
+                      <img src="images/home_contents_mainimage01_01_20180517.jpg" alt="" width="1400" height="500">
+                    </a></li>
+                   <li><a href="#">
+                      <img src="images/home_contents_main_170929_file.jpg" alt="" width="1400" height="500">
+                    </a></li>
+                   <li><a href="#">
+                      <img src="images/home_contents_main_kigyobu_pc.jpg" alt="" width="1400" height="500">
+                    </a></li>
+                   <li><a href="#">
+                      <img src="images/home_contents_mainimage01_05.jpg" alt="" width="1400" height="500">
+                    </a></li>
+                </ul>
+            </section>
+         </div>
+         <div id="bodyPortfolio">
+           <div class="bodyNav">
+             <a href="#">
+              <div class="navBox">
+                  <em>Advanced Program</em>
+                  <p>将来へ繋がる多くの経験を得られる授業</p>
+              </div>
+              <div class="rm">
+                <em>
+                   <img src="images/text_read_more01_black01.png" alt="" width="59" height="11">
+                </em>
+               </div>
+            </a>
+          </div><!-- bodyNav -->
+           <div class="bodyNav">
+               <a href="#">
+                  <div class="navBox">
+                      <em>生徒の進路・活動実績</em>
+                      <p>生徒たちの実績</p>
+                  </div>
+                  <div class="rm">
+                    <em>
+                       <img src="images/text_read_more01_black01.png" alt="" width="59" height="11">
+                    </em>
+                   </div>
+              </a>
+          </div><!-- bodyNav -->
+           <div class="bodyNav">
+               <a href="#">
+                  <div class="navBox">
+                      <em>オープンキャンパス</em>
+                      <p>通学コースオープンキャンパス2018</p>
+                  </div>
+                  <div class="rm">
+                    <em>
+                       <img src="images/text_read_more01_black01.png" alt="" width="59" height="11">
+                    </em>
+                   </div>
+              </a>
+          </div><!-- bodyNav -->
+           <div class="bodyNav">
+               <a href="#">
+                  <div class="navBox">
+                      <em>特別奨学生募集</em>
+                      <p>秀でた才能をお持ちの生徒募集</p>
+                  </div>
+                  <div class="rm">
+                    <em>
+                       <img src="images/text_read_more01_black01.png" alt="" width="59" height="11">
+                    </em>
+                   </div>
+               </a>
+          </div><!-- bodyNav -->
+         </div><!-- bodyPortfolio -->
+         <div id="bodyLow">
+           <h1 class="bL">N高等学校はカドカワが創るネットと通信制高校の制度を活用した新しい高校です。</h1>
+           <p class="bL">現在、6,784名以上の生徒が全国で学んでいます。(2018年7月の生徒数)</p>
+         </div>
+     </div><!-- pageBody -->
+
+     <footer>
+         <div id="footer">
+              <div id="ftTopic">
+                 <ul>
+                    <li><a href="#">トップ</a></li>
+                    <li><a href="#">新入生の方</a></li>
+                    <li><a href="#">転入生の方</a></li>
+                    <li><a href="#">編入生の方</a></li>
+                    <li><a href="#">転入生の方</a></li>
+                    <li><a href="#">保護者・教育関係者の方</a></li>
+                    <li><a href="#">海外在住の方</a></li>
+                 </ul>
+                 <a href="#page"><img src="images/footer01_to_top01.png" alt="" width="70" height="70"></a>
+             </div>
+             <div id="ftportfolioNav">
+                 <div class="navList">
+                     <p><a href="#">
+                        <span class="adv">アドバンスト プログラム</span><br>
+                        Advanced Program
+                     </a></p>
+                     <ul>
+                         <li><a href="#">N予備校システム</a></li>
+                         <li><a href="#">大学受験</a></li>
+                         <li><a href="#">dwango×プログラミング</a></li>
+                         <li><a href="#">Dwango Media Village×機械学習</a></li>
+                         <li><a href="#">Webデザイン授業</a></li>
+                         <li><a href="#">KADOKAWA×文芸小説</a></li>
+                         <li><a href="#">電撃×エンタメ</a></li>
+                         <li><a href="#">Vantan×クリエイティブ</a></li>
+                         <li><a href="#">DTM・ボーカロイド授業</a></li>
+                         <li><a href="#">ものがたり創作授業</a></li>
+                         <li><a href="#">中学復習授業</a></li>
+                         <li><a href="#">企業、自治体、NPO×職業体験</a></li>
+                         <li><a href="#">N高マイプロジェクト</a></li>
+                         <li><a href="#">N高起業部</a></li>
+                         <li><a href="#">海外大学国際教育プログラム</a></li>
+                     </ul>
+                　</div>
+                 <div class="navList">
+                     <p><a href="#">N高について</a></p>
+                     <ul>
+                         <li><a href="#">5分で分かるN高</a></li>
+                         <li><a href="#">高校資格取得について</a></li>
+                         <li><a href="#">スクーリング</a></li>
+                         <li><a href="#">ITツール</a></li>
+                         <li><a href="#">イベント・学校行事</a></li>
+                         <li><a href="#">在校生の声</a></li>
+                         <li><a href="#">保護者の声</a></li>
+                         <li><a href="#">学校関係者・著名人からのメッセージ</a></li>
+                         <li><a href="#">制服紹介</a></li>
+                         <li><a href="#">キャンパス</a></li>
+                         <li><a href="#">動画一覧</a></li>
+                         <li><a href="#">校歌</a></li>
+                         <li><a href="#">学費</a></li>
+                         <li><a href="#">N STANDARDS</a></li>
+                         <li><a href="#">生徒の進路・活動実績、アンケート調査</a></li>
+                     </ul>
+                 </div>
+                 <div class="navList">
+                     <p><a href="#">ネットコース</a></p>
+                     <ul>
+                         <li><a href="#">ネット学習</a></li>
+                         <li><a href="#">ネットコース特進専攻</a></li>
+                         <li><a href="#">担任サポート</a></li>
+                         <li><a href="#">ネット部活</a></li>
+                         <li><a href="#">ネットコース生の１日</a></li>
+                         <li><a href="#">学費(ネットコース)</a></li>
+                     </ul>
+                 </div>
+                 <div class="navList">
+                     <p><a href="#">通学コース</a></p>
+                     <ul>
+                         <li><a href="#">本科クラス</a></li>
+                         <li><a href="#">プログラミングクラス</a></li>
+                         <li><a href="#">英進館 クラス</a></li>
+                         <li><a href="#">カリキュラム</a></li>
+                         <li><a href="#">ネット学習(通学コース)</a></li>
+                         <li><a href="#">プロジェクトN</a></li>
+                         <li><a href="#">大学受験</a></li>
+                         <li><a href="#">プログラミング</a></li>
+                         <li><a href="#">外国語</a></li>
+                         <li><a href="#">中学復習授業</a></li>
+                         <li><a href="#">学びコーチング</a></li>
+                         <li><a href="#">担当サポート(通学コース)</a></li>
+                         <li><a href="#">キャンパスサークル</a></li>
+                         <li><a href="#">イベント・学校行事</a></li>
+                         <li><a href="#">教材</a></li>
+                         <li><a href="#">通学コース生の一日</a></li>
+                         <li><a href="#">通学キャンパス</a></li>
+                         <li><a href="#">学費(通学コース)</a></li>
+                         <li><a href="#">学生寮</a></li>
+                     </ul>
+                 </div>
+                 <div class="navList">
+                     <p><a href="#">提携スクール</a></p>
+                     <ul>
+                         <li><a href="#">スタンフォード大学</a></li>
+                         <li><a href="#">オックスフォード</a></li>
+                         <li><a href="#">代ゼミNスクール</a></li>
+                         <li><a href="#">バンタンマイセレクトコース</a></li>
+                         <li><a href="#">バンタン高等学院</a></li>
+                     </ul>
+                     <ul class="ftInfo">
+                         <li><a href="#">入学案内</a></li>
+                         <li><a href="#">WEB出願</a></li>
+                         <li><a href="#">キャンパス</a></li>
+                         <li><a href="#">ニュース・トピックス</a></li>
+                         <li><a href="#">N高ブログ</a></li>
+                         <li><a href="#">掲載実績</a></li>
+                         <li><a href="#">書籍紹介</a></li>
+                         <li><a href="#">通信制高校について</a></li>
+                         <li><a href="#">特別奨学生募集</a></li>
+                         <li><a href="#">教職員採用</a></li>
+                         <li><a href="#">お問い合わせ</a></li>
+                         <li><a href="#">報道関係者の方へ</a></li>
+                     </ul>
+                 </div>
+             </div><!-- ftportfolioNav -->
+             <div id="ftOutline">
+                 <div class="schOl">
+                     <ul>
+                        <li><a href="#">個人情報保護方針</a></li>
+                        <li><a href="#">学校法人概要</a></li>
+                     </ul>
+                 </div>
+               <div id="ftSns">
+                  <div class="snsCh">
+                      <ul>
+                         <li><a href="#">
+                            <img src="images/icon_twitter01.png" alt="" width="31" height="27">
+                            <p>N高等学校公式<br>twitter</p>
+                           </a></li>
+                      </ul>
+                  </div>
+                  <div class="snsCh">
+                      <ul>
+                         <li><a href="#">
+                            <img src="images/icon_facebook01.png" alt="" width="31" height="27">
+                            <p>N高等学校公式<br>facebook</p>
+                           </a></li>
+                      </ul>
+                    </div>
+                  <div class="snsCh">
+                      <ul>
+                         <li><a href="#">
+                            <img src="images/icon_youtube01.png" alt="" width="31" height="27">
+                            <p>N高等学校公式<br>YouTubeチャンネル</p>
+                           </a></li>
+                      </ul>
+                  </div>
+               </div><!-- ftSns -->
+             </div><!-- ftOutline -->
+             <div id="ftNews">
+                 <div class="newsBlog">
+                    <h2>
+                       最新情報
+                       <span><img src="images/footer_news_title_ruby01.png" alt="" height="11"></span>
+                    </h2>
+                    <p><a href="#">最新情報一覧</a></p>
+                </div>
+                <div class="nbEvent">
+                    <dl>
+                        <dt>
+                           2018/08/19 <span>メディア掲載</span>
+                        </dt>
+                         <dd>
+                            <a href="#">8/19掲載 「読売新聞」にN高生が紹介</a>
+                         </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                           2018/08/18 <span>メディア掲載</span>
+                        </dt>
+                         <dd>
+                            <a href="#">8/18掲載「朝日新聞」にN高等学校の授業の様子が紹介</a>
+                         </dd>
+                    </dl>
+                </div><!-- nbEvent -->
+                 <div class="newsBlog">
+                    <h2>
+                       新着ブログ
+                       <span><img src="images/footer_blog_title_ruby01.png" alt="" height="14"></span>
+                    </h2>
+                    <p><a href="#">最新ブログ一覧</a></p>
+                </div>
+                <div class="nbEvent">
+                    <dl>
+                        <dt>
+                           2018/08/19 <span>横浜キャンパス</span>
+                        </dt>
+                         <dd>
+                            <a href="#">これが『夏のオープンキャンパス』だ！</a>
+                         </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                           2018/08/18 <span>御茶ノ水キャンパス</span>
+                        </dt>
+                         <dd>
+                            <a href="#">『3分面談』で生徒の近況を確認</a>
+                         </dd>
+                    </dl>
+                </div><!-- nbEvent -->
+             </div><!-- ftNews -->
+             <div id="ftApplicant">
+                <h3>入学を希望される皆様へ</h3>
+                <p>
+                  ネットと通信制高校の制度を活用した、N高等学校(本校所在地：沖縄県うるま市)は、PCやスマホを使用し自分のペースで高校卒業資格のための勉強を進められる単位制・通信制の高校です。ネットを介して授業を受けられるため、全国・全世界から入学可能な広域通信制高校になります。高卒資格取得のためのベーシック・プログラム以外にも、将来に向けて自分のやりたいことを見つけたり、実用性のあるスキルを培うことができるアドバンストプログラム(課外授業)が多数あります。プログラミング、機械学習（AI）、大学受験授業、小説、イラスト、ファッション、ゲーム、声優など豊富な学びが可能です。また全国の自治体と連携した職業体験プログラムなどもあり、ネットとリアルで多くの経験を得ることが可能です。
+                  <br>
+                  N高では生徒間や教職員とネットを使った活発なコミュニケーションが行われています。Slack（スラック）というソフトを使い毎日のホームルーム、ネットを通じて行われる部活などで多く交流の場が存在しますので、通信制高校であってもネットで知り合い、リアルのイベントを通じて友達を作ることができます。2017年4月から開校した通学コースは東京は代々木、御茶ノ水、大阪（心斎橋）、神奈川（横浜）、埼玉（大宮）、千葉、愛知（名古屋）、福岡の計8か所にキャンパスがあります。通学コースでは担任はコーチングとして生徒への個別指導や・面談でのサポートに時間を注ぎます。生徒は担任との面談を通じて目標に対して段階的に成長する技術を身につけることができます。ネットコース・通学コースともに、これまでの単位制・通信制高校にはない、新しいカタチのネットの高校です。生徒一人ひとりの自らの夢の実現のために、N高等学校は全力で生徒をサポートします。
+                </p>
+             </div>
+         </div><!-- footer -->
+         <div id="footerEnd">
+            <div class="endInner">
+               <p class="inL"><a href="#">N高等学校：ホーム</a></p>
+               <p class="inR"><a href="#">© KADOKAWA DWANGO educational corporation</a></p>
+            </div>
+         </div>
+     </footer>
  </div><!-- page -->
 </body>
 </html>
